@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.douban"
+    android:versionCode="1"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MeActivity"
+            android:label="@string/my_douban" >
+        </activity>
+        <activity android:name=".TestActivity1" >
+        </activity>
+        <activity android:name=".TestActivity2" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.douban.MyInfoActivity"
+            android:label="@string/myInfo"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.douban.MyReadActivity"
+            android:label="@string/myRead"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.douban.MyMusicActivity"
+            android:label="@string/myRead"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.douban.MyNoteActivtiy"
+            android:label="@string/myNote"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.douban.MyNewNoteActivity"
+            android:label="@string/myNewNote"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.douban.NewBookActivity"
+            android:label="@string/newBook"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="cn.itcast.util.SettingActivity"
+            android:label="@string/setting"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.douban.BookDetailActivity"
+            android:label="@string/bookDetail" 
+            android:theme="@style/bookDetailStyle">
+        </activity>
+        <activity
+            android:name="com.example.douban.NewBookDetailActivity"
+            android:label="@string/bookDetail" 
+            android:theme="@style/bookDetailStyle">
+        </activity>
+    </application>
+
+</manifest>

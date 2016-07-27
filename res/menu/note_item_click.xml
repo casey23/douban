@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+   <item android:id="@+id/note_add" android:title="增加日记"></item>
+   <item android:id="@+id/note_update" android:title="修改日记"></item>
+   <item android:id="@+id/note_delete" android:title="删除日记"></item>
+</menu>

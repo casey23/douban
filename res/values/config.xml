@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loginUrl">https://www.douban.com/accounts/login</string>
+    <string name="captchaUrl">https://www.douban.com/misc/captcha?id=</string>
+    <string name="newBookPath">https://book.douban.com/latest</string>
+    <string name="bookJson">https://api.douban.com/book/subject/isbn/</string>
+</resources>

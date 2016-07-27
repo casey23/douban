@@ -1,0 +1,128 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=6620, tid=4192
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_79-b15) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.79-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000023f000):  JavaThread "Unknown thread" [_thread_in_vm, id=4192, stack(0x00000000024e0000,0x00000000025e0000)]
+
+Stack: [0x00000000024e0000,0x00000000025e0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000023f000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4192, stack(0x00000000024e0000,0x00000000025e0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.011 loading class 0x00000000023ad4d0 done
+Event: 0.011 loading class 0x00000000023aced0 done
+Event: 0.011 loading class 0x00000000023aceb0
+Event: 0.012 loading class 0x00000000023b5060
+Event: 0.012 loading class 0x00000000023b5060 done
+Event: 0.012 loading class 0x00000000023b5090
+Event: 0.012 loading class 0x00000000023b5090 done
+Event: 0.012 loading class 0x00000000023b50c0
+Event: 0.012 loading class 0x00000000023b50c0 done
+Event: 0.012 loading class 0x00000000023aceb0 done
+
+
+Dynamic libraries:
+0x000000013f480000 - 0x000000013f4b3000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x00000000775f0000 - 0x000000007779a000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077290000 - 0x00000000773af000 	C:\Windows\system32\kernel32.dll
+0x000007fefd700000 - 0x000007fefd76b000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefdfa0000 - 0x000007fefe07b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefdf00000 - 0x000007fefdf9f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefe2f0000 - 0x000007fefe30f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefd7e0000 - 0x000007fefd90d000 	C:\Windows\system32\RPCRT4.dll
+0x00000000774f0000 - 0x00000000775ea000 	C:\Windows\system32\USER32.dll
+0x000007fefd770000 - 0x000007fefd7d7000 	C:\Windows\system32\GDI32.dll
+0x000007fefe960000 - 0x000007fefe96e000 	C:\Windows\system32\LPK.dll
+0x000007fefdb80000 - 0x000007fefdc4a000 	C:\Windows\system32\USP10.dll
+0x000007fefbc90000 - 0x000007fefbe84000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+0x000007fefe270000 - 0x000007fefe2e1000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefe230000 - 0x000007fefe25e000 	C:\Windows\system32\IMM32.DLL
+0x000007feff700000 - 0x000007feff809000 	C:\Windows\system32\MSCTF.dll
+0x000007fefc8c0000 - 0x000007fefc933000 	C:\Program Files\BLDBaseService\BLDBaseService64.dll
+0x000007fefe970000 - 0x000007feff6f9000 	C:\Windows\system32\SHELL32.dll
+0x000007fefe6f0000 - 0x000007fefe8f3000 	C:\Windows\system32\ole32.dll
+0x000007fefde20000 - 0x000007fefdef8000 	C:\Windows\system32\OLEAUT32.dll
+0x000007feff8b0000 - 0x000007feff8fd000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe260000 - 0x000007fefe268000 	C:\Windows\system32\NSI.dll
+0x000007fefdc50000 - 0x000007fefdd7a000 	C:\Windows\system32\WININET.dll
+0x000007fefe080000 - 0x000007fefe204000 	C:\Windows\system32\urlmon.dll
+0x000007fefd4e0000 - 0x000007fefd515000 	C:\Windows\system32\XmlLite.dll
+0x000007fefd370000 - 0x000007fefd4dc000 	C:\Windows\system32\CRYPT32.dll
+0x000007fefd360000 - 0x000007fefd36f000 	C:\Windows\system32\MSASN1.dll
+0x000007fefe310000 - 0x000007fefe56f000 	C:\Windows\system32\iertutil.dll
+0x000007fefc7f0000 - 0x000007fefc817000 	C:\Windows\system32\IPHLPAPI.DLL
+0x000007fefc7e0000 - 0x000007fefc7eb000 	C:\Windows\system32\WINNSI.DLL
+0x000007fefc7c0000 - 0x000007fefc7d6000 	C:\Windows\system32\NETAPI32.dll
+0x000007fefc7b0000 - 0x000007fefc7bc000 	C:\Windows\system32\netutils.dll
+0x000007fefcda0000 - 0x000007fefcdc3000 	C:\Windows\system32\srvcli.dll
+0x000007fefc740000 - 0x000007fefc755000 	C:\Windows\system32\wkscli.dll
+0x000000006baf0000 - 0x000000006bbc2000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x000000005ee00000 - 0x000000005f5d5000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fef89f0000 - 0x000007fef89f9000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefd6c0000 - 0x000007fefd6fb000 	C:\Windows\system32\WINMM.dll
+0x00000000777b0000 - 0x00000000777b7000 	C:\Windows\system32\PSAPI.DLL
+0x000000006c7c0000 - 0x000000006c7cf000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x000000006c540000 - 0x000000006c568000 	C:\Program Files\Java\jre7\bin\java.dll
+0x000000006c580000 - 0x000000006c595000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:D:\android\sdk\platforms\android-22\android.jar 
+java_command: cn.itcast.util.Test
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_79
+JRE_HOME=C:\Program Files\Java\jre7
+PATH=C:/Program Files/Java/jdk1.7.0_79/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.7.0_79\bin;C:\php-5.6.12\ext;C:\Program Files (x86)\Common Files\NetSarang;C:\Python27\Scripts;C:\Python27;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files (x86)\Rational\common;JAVA_HOME;JRE_HOME;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;D:\android\sdk\platform-tools;D:\android\eclipse;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8269040k(3303184k free), swap 9315780k(3328964k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.79-b02) for windows-amd64 JRE (1.7.0_79-b15), built on Apr 10 2015 12:36:16 by "java_re" with unknown MS VC++:1600
+
+time: Wed Jul 20 11:14:35 2016
+elapsed time: 0 seconds
+

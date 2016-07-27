@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="选项">
+        <CheckBoxPreference
+            android:key="downLoadImg"
+            android:summary="非WIFI是否下载图片"
+            android:summaryOff="3g状态"
+            android:summaryOn="WIFI状态"
+            android:title="是否下载图片" android:enabled="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

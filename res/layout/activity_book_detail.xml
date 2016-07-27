@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnClose"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@android:color/transparent"
+                    android:text="X"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="书名  " />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="简介  " />
+
+                <TextView
+                    android:id="@+id/tvSummary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:text="《山中的糖果》通过亲人记 世间记回乡记三个部分，集结了作者对故乡亲人、师友，对身边那些人那些事的记录与怀念。作者邓安庆生长在农村，曾游荡于多个城市之间，从事过广告策划、内刊编辑、企业培训、木材加工、图书编辑、互联网等不同职业，阅历丰富，天性敏感细腻，对乡村，对城市，对社会底层的人和事，都有独到而细致入微的体察。作者文笔细腻，语言纯净克制，用平铺直叙的白描手法，将人间烟火娓娓道来，对人物的举止投足和心理刻画生动，性格描述细致入微，使得读者如见其人，如入其境，读来亲切有加。他的文字接地气，带有温度，能够俘获人心。插画家 “星星的插图”根据书中内容作插图20余幅，画风细腻、生动，乡趣十足，与邓安庆的文字十分契合，相映成辉。"
+                    android:paddingRight="8dp"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/llShowing"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>

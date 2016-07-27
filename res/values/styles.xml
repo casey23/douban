@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="TextViewStyleTabMainNav">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">@drawable/tab_main_nav_text_selector</item>
+    </style>
+
+    <style name="bookDetailStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+
+</resources>
